@@ -25,22 +25,6 @@ USE `nuestras_tiendas`;
 
 -- --------------------------------------------------------
 
---
--- Estructura de la taula `dulcebebesoletes2_export_pred`
---
-
-DROP TABLE IF EXISTS `dulcebebesoletes2_export_pred`;
-CREATE TABLE `dulcebebesoletes2_export_pred` (
-  `id` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `filter_fab` int(11) NOT NULL,
-  `filter_cat` int(11) NOT NULL,
-  `filter_lang` int(11) NOT NULL,
-  `filter_check` text NOT NULL,
-  `field_value` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_swedish_ci;
-
--- --------------------------------------------------------
 
 --
 -- Estructura de la taula `sequra`
@@ -15035,12 +15019,6 @@ ALTER TABLE `testAdmin_zones_to_geo_zones`
 --
 -- AUTO_INCREMENT per les taules bolcades
 --
-
---
--- AUTO_INCREMENT per la taula `dulcebebesoletes2_export_pred`
---
-ALTER TABLE `dulcebebesoletes2_export_pred`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT per la taula `sequra`
